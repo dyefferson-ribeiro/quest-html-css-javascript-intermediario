@@ -1,0 +1,95 @@
+section{ 
+    background: url(images/bg-repeat.jpg);
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bloco-menor{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    height: 402px;
+}
+.texto-bloco{ 
+    color: white;
+    width: 300px;
+    height: 111px;
+}
+
+.texto-bloco h1{ 
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.texto-bloco p{ 
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.formulario{ 
+    width: 340px;
+    height: 378px;
+    background-color: white;
+}
+
+.formulario :nth-child(9){ 
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.formulario form input{ 
+    width: 298px;
+    height: 35px;
+    margin: 7.5px 20px;
+    border-radius: 5px;
+}
+
+.formulario form input:first-child{ 
+    margin: 20px 20px 7.5px 20px;
+}
+
+
+.formulario .botao{ 
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    width: 298px;
+    height: 41px;
+    margin: 15px 20px 20px 20px;
+    border-radius: 5px;
+    background-color: #3CCC87;
+    border: none;
+}
+
+
+.formulario form input:nth-child(7){ 
+    height: 100px;
+}
+
+.formulario form p:nth-last-child(2){ 
+    font-size: 15px;
+}
+
+.verde{ 
+    border: solid 2px #3CCC87;
+    margin: 0px 20px;
+}
+
+.vermelho{ 
+    border: solid 2px #F52E2E;
+    margin: 0px 20px;
+}
+
+.error-message{ 
+    color: #F52E2E;
+    font-size: 8px;
+    height: 8px;
+    font-weight: 400;
+    margin: -5px 20px -3px 20px;
+}
